@@ -1,0 +1,29 @@
+@font-face {font-family:segasonic; src:url("fonts/NiseSegaSonic.ttf") format('truetype');}
+@font-face {font-family:lato; src:url("fonts/Lato-Regular.ttf") format('truetype');}
+
+body {margin:0; animation:changeBg 60s infinite; background-repeat:no-repeat; background-attachment:fixed; background-position:center; background-size:cover; font-size:90%; font-family:lato,sans-serif; color:darkblue; overflow-x:hidden; display:grid; place-items:center;}
+
+@keyframes appear {from{opacity:0; transform:translateX(-50%);} 70%{transform:translateX(10%);} to{opacity:1}}
+
+@keyframes changeBg {0%,100% {background-image:url("img/lapper-bggreenhill3.jpg");} 33.3% {background-image:url("img/lapper-bggreenhill1.jpg");} 66.6% {background-image:url("img/lapper-bggreenhill2.jpg");}}
+
+.everything {margin:0; background-color:rgba(255, 255, 255, 0.85); padding:1.5em; aspect-ratio:2/1; width:80%; display:grid; grid-template-columns:repeat(3,1fr); grid-template-areas:"img desc desc" "cred cred cred";}
+
+h1 {font-family:segasonic,Helvetica; font-size:3.5em; margin:0;}
+#p1 {color:blue; text-shadow:black; -webkit-text-stroke:0.02em gold;}
+#p2 {color:darkgreen;}
+#p3 {color:gold; -webkit-text-stroke:0.02em black;}
+h2 {font-size:1.6em; font-weight:100;}
+
+.description {grid-area:desc;}
+.description :is(h1,h2,li) {animation:appear 1s ease-in; animation-play-state:paused;}
+.image {grid-area:img; aspect-ratio:3/5; width:auto;}
+.quotes ul {list-style-type:decimal;}
+.quotes li {margin-bottom:0.5em; font-size:1.2em;}
+.quotes ul ::marker {font-weight:bold;}
+
+.credits {grid-area:cred;}
+.credits a {color:green;}
+.credits h2 {text-align:center;}
+
+hr {border:0.1em solid blue;}
