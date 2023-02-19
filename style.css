@@ -1,7 +1,7 @@
-@font-face {font-family:'segasonic'; src:url("fonts/NiseSegaSonic.ttf") format('truetype');}
-@font-face {font-family:'lato'; src:url("fonts/Lato-Regular.ttf") format('truetype');}
+@font-face {font-family:"segasonic"; src:url("fonts/NiseSegaSonic.ttf") format('truetype');}
+@font-face {font-family:"lato"; src:url("fonts/Lato-Regular.ttf") format('truetype');}
 
-body {margin:0; animation:changeBg 60s infinite; background-repeat:no-repeat; background-attachment:fixed; background-position:center; background-size:cover; font-size:90%; font-family:lato,sans-serif; color:darkblue; overflow-x:hidden; display:grid; place-items:center;}
+body {margin:0; animation:changeBg 60s infinite; background-repeat:no-repeat; background-attachment:fixed; background-position:center; background-size:cover; font-size:90%; font-family:"lato",sans-serif; color:darkblue; overflow-x:hidden; display:grid; place-items:center;}
 
 @keyframes appear {from{opacity:0; transform:translateX(-50%);} 70%{transform:translateX(10%);} to{opacity:1}}
 
@@ -9,7 +9,7 @@ body {margin:0; animation:changeBg 60s infinite; background-repeat:no-repeat; ba
 
 .everything {margin:0; background-color:rgba(255, 255, 255, 0.85); padding:1.5em; aspect-ratio:2/1; width:80%; display:grid; grid-template-columns:repeat(3,1fr); grid-template-areas:"img desc desc" "cred cred cred";}
 
-h1 {font-family:'segasonic',Helvetica; font-size:3.5em; margin:0;}
+h1 {font-family:"segasonic",Helvetica; font-size:3.5em; margin:0;}
 #p1 {color:blue; -webkit-text-stroke:0.02em gold;}
 #p2 {color:darkgreen;}
 #p3 {color:gold; -webkit-text-stroke:0.02em black;}
