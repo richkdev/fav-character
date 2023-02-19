@@ -5,7 +5,7 @@ i know that the website isnt responsiv
 
 ## links
 - github = [richkdev.github.io/fav-character](https://richkdev.github.io/fav-character/)
-- live at = [richard8b27.rf.gd](https://richard8b27.rf.gd) (not live yet, filemanager is down)
+- live at = [richard8b27.rf.gd](http://richard8b27.rf.gd)
 
 ## credits
 - thx sega for the sonic mascot & assets from sonic1
