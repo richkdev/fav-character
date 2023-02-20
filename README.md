@@ -4,7 +4,7 @@ made in under 3 days<br>
 i know that the website isnt responsiv
 
 ## links
-- github = [richkdev.github.io/fav-character](https://richkdev.github.io/fav-character/)
+- github = [richkdev.github.io/fav-character](https://richkdev.github.io/fav-character)
 - live at = [richard8b27.rf.gd](http://richard8b27.rf.gd)
 
 ## credits
