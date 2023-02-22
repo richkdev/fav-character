@@ -4,8 +4,7 @@ made in under 3 days<br>
 i know that the website isnt responsiv
 
 ## links
-- github = [richkdev.github.io/fav-character](https://richkdev.github.io/fav-character)
-- live at = [richard8b27.rf.gd](http://richard8b27.rf.gd)
+live at my github page aa = [richkdev.github.io/fav-character](https://richkdev.github.io/fav-character)
 
 ## credits
 - thx sega for the sonic mascot & assets from sonic1
